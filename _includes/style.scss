@@ -1,0 +1,104 @@
+$post-link-highlight: #388fd6;
+$post-link-underline: linear-gradient(to bottom, rgba($post-link-highlight, 0.3) 50%, rgba($post-link-highlight, 0) 50%);
+$post-link-underline-on: linear-gradient(to bottom, rgba($post-link-highlight, 0.6) 50%, rgba($post-link-highlight, 0) 50%);
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 20px;
+
+  @media only screen and (max-width: 375px)  {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+
+
+.cover {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.cover__content {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+
+.post {
+  width: 35rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+
+  font-family: "Iowan Old Style", "Palatino Linotype", "Palatino", serif;
+  font-size: 1rem;
+}
+
+.post__content {
+  h3 {
+    font-size: 1.75rem;
+    margin: 0 0 1em;
+  }
+
+  p {
+    margin-top: 0;
+
+    &:not(last-child) {
+      margin-bottom: 1em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: solid 1px currentColor;
+    letter-spacing: 0.06em;
+
+    @supports(background-image: $post-link-underline) {
+      background-image: $post-link-underline;
+      background-repeat: repeat-x;
+      background-size: 2px 0.1em;
+      background-position: 0 1.15em;
+      border-bottom: 0;
+
+      &:hover {
+        background-image: $post-link-underline-on;
+        background-size: 2px 0.2em;
+      }
+    }
+
+    &.is-highlighted {
+      color: $post-link-highlight;
+    }
+  }
+}
+
+.post__meta {
+  font-size: 60%;
+  opacity: 0.5;
+
+  &:last-child {
+    margin-top: 3rem;
+  }
+}

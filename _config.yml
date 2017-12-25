@@ -1,0 +1,15 @@
+title: Home
+email: hello@edvinas.lt
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: arzatskis
+github_username: arzatskis
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed

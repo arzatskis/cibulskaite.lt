@@ -1,0 +1,19 @@
+<head>
+  {% if page.title %}
+  <title>{{ page.title }} - Edvinas Aržatskis</title>
+  {% endif %}
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% if page.og_title %}<meta content="{{ page.og_title }}" property="og:title">{% endif %}
+  {% if page.og_description %}<meta content="{{ page.og_description }}" property="og:description">{% endif %}
+  {% if page.og_image %}<meta content="{{ page.og_image }}" property="og:image">{% endif %}
+
+  <style>
+    {% capture style %}
+    {% include style.scss %}
+    {% endcapture %}
+    {{ style | scssify }}
+  </style>
+</head>
