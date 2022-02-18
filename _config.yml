@@ -1,5 +1,6 @@
 title: Home
 email: hello@edvinas.lt
+order_email: labas@cibulskaite.lt
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: arzatskis
@@ -14,3 +15,14 @@ exclude:
 sass:
   style: compressed
   sass_dir: _scss
+
+collections:
+  work:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: work

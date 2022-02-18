@@ -6,10 +6,16 @@ figcaption {
   grid-column: var(--cap-start) / span var(--cap-span);
   grid-row: var(--cap-row);
 
-  font-size: 12px;
-}
+  display: grid;
+  row-gap: 2em;
 
-figcaption a {
-  color: inherit;
-  font-size: clamp(0.875rem, calc(2vw + 0.5rem), 2.25rem)
+  font-size: 12px;
+
+  & > h3 {
+    font-size: clamp(0.875rem, calc(2vw + 0.5rem), 2.25rem)
+  }
+
+  & a {
+    color: inherit;
+  }
 }

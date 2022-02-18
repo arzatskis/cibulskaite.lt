@@ -17,3 +17,9 @@ grid {
   column-gap: var(--col-gap);
   row-gap: var(--row-gap);
 }
+
+grid > header {
+  grid-column: 7 / -1;
+  grid-row: 1;
+  background: pink;
+}

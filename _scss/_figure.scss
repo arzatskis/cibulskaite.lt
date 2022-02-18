@@ -1,6 +1,7 @@
 grid > figure {
   --span: 3;
   --start: auto;
+  --row: auto;
 
   --img-start: 1;
   --img-span: 3;
@@ -14,6 +15,7 @@ grid > figure {
 
   position: relative;
   grid-column: var(--start) / span var(--span);
+  grid-row: var(--row);
   column-gap: inherit;
 
   display: grid;
@@ -81,6 +83,7 @@ grid > figure {
 
     &:first-of-type {
       --start: 3;
+      --row: 1;
       --col-align: center;
     }
   }
