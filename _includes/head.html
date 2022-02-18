@@ -1,6 +1,6 @@
 <head>
   {% if page.title %}
-  <title>{{ page.title }} - Edvinas Aržatskis</title>
+  <title>{{ page.title }} - Dovilė Cibulskaitė</title>
   {% endif %}
 
   <meta charset="UTF-8">
@@ -10,10 +10,5 @@
   {% if page.og_description %}<meta content="{{ page.og_description }}" property="og:description">{% endif %}
   {% if page.og_image %}<meta content="{{ page.og_image }}" property="og:image">{% endif %}
 
-  <style>
-    {% capture style %}
-    {% include style.scss %}
-    {% endcapture %}
-    {{ style | scssify }}
-  </style>
+  <link rel="stylesheet" href="{{ 'site.css' | relative_url }}" />
 </head>

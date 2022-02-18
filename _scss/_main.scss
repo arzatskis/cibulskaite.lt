@@ -1,0 +1,13 @@
+:root {
+  --content-top-padding: calc(var(--page-padding-block) + var(--safe-area-inset-top));
+  --content-bottom-padding: calc(100vh + var(--safe-area-inset-bottom) - var(--page-padding-block) / 2);
+}
+
+main {
+  position: relative;
+  min-height: 100%;
+
+  padding-inline: var(--page-padding-inline);
+  padding-top: var(--content-top-padding);
+  padding-bottom: var(--content-bottom-padding);
+}

@@ -1,0 +1,87 @@
+grid > figure {
+  --span: 3;
+  --start: auto;
+
+  --img-start: 1;
+  --img-span: 3;
+
+  --cap-start: 1;
+  --cap-span: 2;
+  --cap-row: auto;
+
+  --cap-inset: 4vw;
+  --col-align: flex-end;
+
+  position: relative;
+  grid-column: var(--start) / span var(--span);
+  column-gap: inherit;
+
+  display: grid;
+  grid-template-columns: repeat(var(--span), minmax(0, 1fr));
+  align-items: var(--col-align);
+
+  & > img {
+    object-fit: cover;
+    grid-column: var(--img-start) / span var(--img-span);
+    grid-row: 1;
+  }
+
+  @include screen('medium') {
+    --span: 7;
+
+    --img-start: 1;
+    --img-span: 5;
+
+    --cap-start: 5;
+    --cap-span: 3;
+    --cap-row:  1;
+
+    --cap-inset: 4vw;
+
+    --col-align: flex-start;
+
+    /* Centered block */
+    &:nth-of-type(3n+4) {
+      --span: 10;
+      --start: 2;
+
+      --img-span: 8;
+      --img-start: 3;
+
+      --cap-start: 1;
+    }
+
+    /* Small block */
+    &:nth-of-type(6n+3),
+    &:nth-of-type(6n+5) {
+      --start: auto;
+      --span: 5;
+
+      --cap-row: auto;
+      --cap-start: 1;
+      --cap-inset: 2vw;
+    }
+
+    /* Small block on the left  */
+    &:nth-of-type(6n+5) {
+      --cap-start: 2;
+    }
+
+    /* Default block on the right  */
+    &:nth-of-type(6n+6) {
+      --img-start: 3;
+      --cap-start: 1;
+    }
+
+    /* Centered block flipped */
+    &:nth-of-type(6n+7){
+      --img-start: 1;
+      --cap-start: 8;
+    }
+
+    &:first-of-type {
+      --start: 3;
+      --col-align: center;
+    }
+  }
+}

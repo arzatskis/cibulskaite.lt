@@ -1,0 +1,88 @@
+:root {
+  --nav-direction: row;
+  --nav-inset: auto 0 0 0;
+
+  @include screen('medium') {
+    --nav-direction: column;
+    --nav-inset: auto auto var(--page-padding-block) calc(var(--page-padding-inline) * 0.5);
+  }
+}
+
+nav {
+  position: fixed;
+  inset: var(--nav-inset);
+  /* padding-inline: calc(var(--page-padding-inline)  * 0.5); */
+  /* padding-top: 2rem; */
+  padding-bottom: calc(1rem + var(--safe-area-inset-bottom));
+  z-index: 1;
+
+  display: flex;
+  flex-direction: var(--nav-direction);
+  justify-content: space-around;
+  /* margin-inline: auto; */
+  /* width: min-content; */
+  align-items: flex-end;
+  /* gap: 2em; */
+
+  font-size: 12px;
+
+  & a {
+    display: flex;
+    gap: 0.5em;
+    text-decoration: none;
+    font-family: "silka_monosemibold"
+  }
+
+  & svg {
+    width: 16px;
+    height: 16px;
+  }
+
+
+  &::before {
+    content: '';
+
+    display: block;
+    position:  fixed;
+    inset: auto 0 0 0;
+    height: calc(var(--page-padding-block) * 3 + var(--safe-area-inset-bottom) / 2);
+    border-bottom: solid var(--safe-area-inset-bottom) #fff;
+    z-index: -1;
+
+    background: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 100%, 0) 0%,
+      hsla(0, 0%, 100%, 0.013) 8.1%,
+      hsla(0, 0%, 100%, 0.049) 15.5%,
+      hsla(0, 0%, 100%, 0.104) 22.5%,
+      hsla(0, 0%, 100%, 0.175) 29%,
+      hsla(0, 0%, 100%, 0.259) 35.3%,
+      hsla(0, 0%, 100%, 0.352) 41.2%,
+      hsla(0, 0%, 100%, 0.45) 47.1%,
+      hsla(0, 0%, 100%, 0.55) 52.9%,
+      hsla(0, 0%, 100%, 0.848) 58.8%,
+      hsla(0, 0%, 100%, 1) 64.7%,
+      hsla(0, 0%, 100%, 1) 71%,
+      hsla(0, 0%, 100%, 1) 77.5%,
+      hsla(0, 0%, 100%, 1) 84.5%,
+      hsla(0, 0%, 100%, 1) 91.9%,
+      hsla(0, 0%, 100%, 1) 100%
+    );
+
+    pointer-events: none;
+
+    @include screen('medium') {
+      display: none
+    }
+  }
+
+  & > a {
+    color: inherit;
+  }
+
+
+}
+
+
+
+

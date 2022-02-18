@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+
+    <main>
+      {{ content }}
+    </main>
+  </body>
+
+  <script type="module">
+    let handler = (entries, observer) => {
+      entries.forEach(entry => {
+        const { target, isIntersecting } = entry
+
+        if (!isIntersecting) return
+
+        target.toggleAttribute('visible', entry.isIntersecting)
+        observer.unobserve(target)
+      })
+    }
+
+    let treshold = 0.25
+    let observer = new IntersectionObserver(handler, { treshold })
+    let targets = Array.from(document.querySelectorAll('[faded]'))
+
+    targets.forEach((target) => observer.observe(target))
+  </script>
+</html>

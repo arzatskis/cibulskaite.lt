@@ -13,3 +13,4 @@ exclude:
 
 sass:
   style: compressed
+  sass_dir: _scss

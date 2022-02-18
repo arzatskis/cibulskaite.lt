@@ -1,0 +1,19 @@
+:root {
+  --grid-cols: 1;
+  --col-gap: var(--page-padding-inline);
+  --row-gap: 12vh;
+
+  @include screen('medium') {
+    --grid-cols: 12;
+  }
+}
+
+grid {
+  display: grid;
+
+  grid-template-columns: repeat(var(--grid-cols), minmax(0, 1fr));
+  align-items: flex-start;
+
+  column-gap: var(--col-gap);
+  row-gap: var(--row-gap);
+}

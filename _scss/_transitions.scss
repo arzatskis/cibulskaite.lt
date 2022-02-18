@@ -1,0 +1,20 @@
+[faded] img {
+  --opacity: 0;
+  --offsetY: 25%;
+
+  --duration: 1000ms;
+  --delay: 0;
+
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+  transition-property: transform opacity;
+  transition-timing-function: ease-in-out;
+
+  transform: translateY(var(--offsetY));
+  opacity: var(--opacity);
+}
+
+[visible] img {
+  --opacity: 1;
+  --offsetY: 0;
+}

@@ -1,0 +1,47 @@
+:root {
+  --page-padding-inline: max(28px, 5vw);
+  --page-padding-block: var(--page-padding-inline);
+}
+
+body {
+  min-height: 100%;
+
+  font-family: 'silka_monoregular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #000105;
+
+  & > header {
+    --position: sticky;
+    --top-ratio: 2;
+    --left-ratio: 1.5;
+
+    position: var(--position);
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    padding-top: calc(var(--page-padding-inline) * var(--top-ratio));
+    padding-bottom: calc(var(--page-padding-inline));
+    padding-left: calc(var(--page-padding-inline) * var(--left-ratio));
+
+    pointer-events: none;
+
+    & > h1 {
+      position: absolute;
+      left: -9999px;
+    }
+
+    & > img {
+      width: 16vw;
+      max-width: 64px;
+    }
+
+    @include screen('medium') {
+      --top-ratio: 1;
+      --left-ratio: 0.5;
+      --position: fixed;
+    }
+  }
+}

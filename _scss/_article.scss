@@ -1,0 +1,32 @@
+article {
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-columns: inherit;
+
+  row-gap: 2em;
+  line-height: 1.5;
+
+  & > figure {
+    grid-column: 1 / -1;
+    margin-top: calc(-1 * var(--content-top-padding));
+    margin-bottom: 1em;
+  }
+
+  & > ul {
+    display: inherit;
+    row-gap: inherit;
+    padding: 0;
+    list-style-position: outside;
+    list-style: none;
+  }
+
+  & > :not(figure) {
+    grid-column: 3 / -3;
+  }
+
+  & em {
+    font-style: inherit;
+    font-family: "silka_monosemibold";
+  }
+}
