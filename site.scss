@@ -36,3 +36,15 @@
 small {
   opacity: 0.5
 }
+
+
+[clickable] {
+  position: relative;
+
+  a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(red, 0.1);
+  }
+}

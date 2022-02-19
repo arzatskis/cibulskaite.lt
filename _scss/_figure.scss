@@ -23,9 +23,16 @@ grid > figure {
   align-items: var(--col-align);
 
   & > img {
+    position: relative;
+    z-index: -1;
+
     object-fit: cover;
     grid-column: var(--img-start) / span var(--img-span);
     grid-row: 1;
+
+    &:only-child {
+      grid-column: 1 / -1;
+    }
   }
 
   @include screen('medium') {
