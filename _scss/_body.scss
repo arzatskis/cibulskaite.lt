@@ -14,7 +14,7 @@ body {
 
   color: #000105;
 
-  & > header {
+  & > h1 {
     --position: sticky;
     --top-ratio: 2;
     --left-ratio: 1.5;
@@ -30,13 +30,19 @@ body {
 
     pointer-events: none;
 
-    & > h1 {
-      position: absolute;
-      left: -9999px;
+    & > a {
+      display: block;
+      width: min-content;
+
+      text-decoration: none;
+      font-size: 0;
+
+      pointer-events: auto;
     }
 
-    & > img {
+    & svg {
       width: var(--logo-width);
+      height: auto;
     }
 
     @include screen('medium') {

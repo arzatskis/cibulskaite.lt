@@ -1,7 +1,9 @@
-<header>
-  <img src="{{ 'glyphs/logo.svg' | relative_url }}" alt="">
-  <h1>{{ site.title }}</h1>
-</header>
+<h1>
+  <a href="{{ site.url }}">
+    {% include glyphs/logo.svg %}
+    {{ site.title }}
+  </a>
+</h1>
 
 <nav>
   <a href="{% link about.html %}">
