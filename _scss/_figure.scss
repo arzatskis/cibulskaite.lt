@@ -92,6 +92,13 @@ grid > figure {
       --start: 3;
       --row: 1;
       --col-align: center;
+
+      &[cover] {
+        --start: 2;
+        --span: 9;
+        --img-span: 6;
+        --cap-start: 7;
+      }
     }
   }
 }
