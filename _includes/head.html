@@ -1,10 +1,13 @@
 <head>
-  {% if page.title %}
-  <title>{{ page.title }} - Dovilė Cibulskaitė</title>
-  {% endif %}
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} &middot;
+    {% endif %}
+    {{ site.title }}
+  </title>
 
   {% if page.og_title %}<meta content="{{ page.og_title }}" property="og:title">{% endif %}
   {% if page.og_description %}<meta content="{{ page.og_description }}" property="og:description">{% endif %}

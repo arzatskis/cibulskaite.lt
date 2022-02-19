@@ -1,6 +1,8 @@
 :root {
   --page-padding-inline: max(28px, 5vw);
   --page-padding-block: var(--page-padding-inline);
+
+  --logo-width: min(64px, 16vw);
 }
 
 body {
@@ -34,8 +36,7 @@ body {
     }
 
     & > img {
-      width: 16vw;
-      max-width: 64px;
+      width: var(--logo-width);
     }
 
     @include screen('medium') {

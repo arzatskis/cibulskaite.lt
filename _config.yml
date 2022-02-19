@@ -1,10 +1,10 @@
-title: Home
-email: hello@edvinas.lt
+title: Dovilė Cibulskaitė
 order_email: labas@cibulskaite.lt
+instagram_url: https://instagram.com/cibulskaitedovile
+messenger_url: https://m.me/cibulskaitedovile
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: arzatskis
-github_username: arzatskis
 
 # Build settings
 markdown: kramdown
