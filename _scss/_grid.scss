@@ -1,7 +1,7 @@
 :root {
   --grid-cols: 1;
   --col-gap: var(--page-padding-inline);
-  --row-gap: 12vh;
+  --row-gap: 10vmax;
 
   @include screen('medium') {
     --grid-cols: 12;

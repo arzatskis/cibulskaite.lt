@@ -76,6 +76,12 @@ grid > figure {
       --cap-start: 2;
     }
 
+    /* Default block */
+    &:nth-of-type(6n+2),
+    &:nth-of-type(6n+6){
+      padding-top: var(--row-gap);
+    }
+
     /* Default block on the right  */
     &:nth-of-type(6n+6) {
       --img-start: 3;
@@ -96,6 +102,7 @@ grid > figure {
       &[cover] {
         --start: 2;
         --span: 10;
+        --col-align: flex-start;
         --img-span: 6;
         --cap-start: 7;
         --cap-span: 4
