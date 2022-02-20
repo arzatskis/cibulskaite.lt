@@ -4,7 +4,7 @@ instagram_url: https://instagram.com/cibulskaitedovile
 messenger_url: https://m.me/cibulskaitedovile
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://cibulskaite.lt
 
 # Build settings
 markdown: kramdown
