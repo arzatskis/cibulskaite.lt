@@ -25,7 +25,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-size: 12px;
-  font-family: 'silka_monoregular';
+  font-family: 'silka_mono', monospace;
   color: #000105;
 
   & > h1 {
@@ -68,7 +68,7 @@ body {
     height: var(--content-bottom-padding);
     padding-inline: calc(var(--page-padding-inline) * var(--logo-inline-ratio));
 
-    font-family: "silka_monosemibold";
+    font-weight: 600;
     text-transform: uppercase;
     text-align: var(--footer-alignment);
   }
