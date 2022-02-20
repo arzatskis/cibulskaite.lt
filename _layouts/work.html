@@ -6,9 +6,13 @@
     {% include navigation.html %}
 
     <main>
-      <grid>
+      <grid id="skr">
         <figure faded cover>
-          <img src="{{ '/pictures' | append: page.url | append: '/01.webp' }}" width="{{ page.width }}" height="{{ page.height }}">
+          {% assign src = '/pictures' | append: page.url | append: '/01.webp' %}
+          {% assign width = page.width %}
+          {% assign height = page.height %}
+          {% include zoomable-image.html %}
+
           <figcaption>
             <h3>{{ page.title }}</h3>
 
@@ -20,7 +24,10 @@
 
         {% for picture in page.pictures %}
           <figure faded>
-            <img src="/pictures{{ page.url }}/{{ picture.name }}" loading="lazy" width="{{ picture.width }}" height="{{ picture.height }}">
+            {% assign src = '/pictures' | append: page.url | append: '/' | append: picture.name %}
+            {% assign width = picture.width %}
+            {% assign height = picture.height %}
+            {% include zoomable-image.html %}
           </figure>
         {% endfor %}
       </grid>
@@ -28,5 +35,6 @@
 
     {% include cta.html %}
     {% include scripts.html %}
+    {% include gallery.html %}
   </body>
 </html>

@@ -17,4 +17,8 @@
   {% if page.og_image %}<meta content="{{ page.og_image }}" property="og:image">{% endif %}
 
   <link rel="stylesheet" href="{{ 'site.css' | relative_url }}" />
+
+  {% if page.layout == 'work' %}
+  <link rel="stylesheet" href="{{ 'gallery.css' | relative_url }}" />
+  {% endif %}
 </head>

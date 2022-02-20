@@ -22,17 +22,25 @@ grid > figure {
   grid-template-columns: repeat(var(--span), minmax(0, 1fr));
   align-items: var(--col-align);
 
+  & > a,
   & > img {
     position: relative;
-    z-index: -1;
 
     object-fit: cover;
     grid-column: var(--img-start) / span var(--img-span);
     grid-row: 1;
 
+    &:not(a) {
+      z-index: -1;
+    }
+
     &:only-child {
       grid-column: 1 / -1;
     }
+  }
+
+  & > a > img {
+    cursor: zoom-in;
   }
 
   @include screen('medium') {

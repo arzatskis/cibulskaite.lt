@@ -1,0 +1,18 @@
+<script type="module">
+  import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.min.js'
+
+  const gallery = 'grid'
+  const children = 'figure > a'
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery,
+    children,
+    bgOpacity: 1,
+    pswpModule: '/js/photoswipe.esm.min.js',
+    zoom: false,
+    close: false,
+    counter: false
+  })
+
+  lightbox.init()
+</script>

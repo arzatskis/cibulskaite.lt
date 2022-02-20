@@ -1,0 +1,8 @@
+<a href="{{ src }}" data-pswp-width="{{ width }}" data-pswp-height="{{ height }}">
+  <img
+    src="{{ src }}"
+    width="{{ width }}"
+    height="{{ height }}"
+    {% unless eager %}loading="lazy"{% endunless %}
+  >
+</a>
