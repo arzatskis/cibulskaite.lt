@@ -13,6 +13,7 @@
     --logo-block-ratio: 1;
     --logo-inline-ratio: 0.5;
     --logo-position: fixed;
+
     --footer-alignment: center;
   }
 }
@@ -39,6 +40,9 @@ body {
 
     pointer-events: none;
 
+    color: white;
+    mix-blend-mode: difference;
+
     & > a {
       display: block;
       width: min-content;
@@ -49,7 +53,6 @@ body {
 
     & svg {
       width: var(--logo-width);
-      height: auto;
     }
   }
 
@@ -63,10 +66,10 @@ body {
     justify-content: var(--footer-alignment);
 
     height: var(--content-bottom-padding);
-    // margin-top: 25vh;
     padding-inline: calc(var(--page-padding-inline) * var(--logo-inline-ratio));
 
     font-family: "silka_monosemibold";
     text-transform: uppercase;
+    text-align: var(--footer-alignment);
   }
 }
