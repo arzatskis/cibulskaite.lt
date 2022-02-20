@@ -3,30 +3,39 @@
   --page-padding-block: var(--page-padding-inline);
 
   --logo-width: min(64px, 16vw);
+  --logo-position: sticky;
+  --logo-block-ratio: 2;
+  --logo-inline-ratio: 1.5;
+
+  --footer-alignment: flex-start;
+
+  @include screen('medium') {
+    --logo-block-ratio: 1;
+    --logo-inline-ratio: 0.5;
+    --logo-position: fixed;
+    --footer-alignment: center;
+  }
 }
 
 body {
   min-height: 100%;
 
-  font-family: 'silka_monoregular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  font-size: 12px;
+  font-family: 'silka_monoregular';
   color: #000105;
 
   & > h1 {
-    --position: sticky;
-    --top-ratio: 2;
-    --left-ratio: 1.5;
-
-    position: var(--position);
+    position: var(--logo-position);
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 5;
 
-    padding-top: calc(var(--page-padding-inline) * var(--top-ratio));
+    padding-top: calc(var(--page-padding-inline) * var(--logo-block-ratio));
     padding-bottom: calc(var(--page-padding-inline));
-    padding-left: calc(var(--page-padding-inline) * var(--left-ratio));
+    padding-left: calc(var(--page-padding-inline) * var(--logo-inline-ratio));
 
     pointer-events: none;
 
@@ -36,19 +45,28 @@ body {
 
       text-decoration: none;
       font-size: 0;
-
-      pointer-events: auto;
     }
 
     & svg {
       width: var(--logo-width);
       height: auto;
     }
+  }
 
-    @include screen('medium') {
-      --top-ratio: 1;
-      --left-ratio: 0.5;
-      --position: fixed;
-    }
+  & > footer {
+    position: sticky;
+    z-index: 0;
+    bottom: 0;
+
+    display: grid;
+    align-items: center;
+    justify-content: var(--footer-alignment);
+
+    height: var(--content-bottom-padding);
+    // margin-top: 25vh;
+    padding-inline: calc(var(--page-padding-inline) * var(--logo-inline-ratio));
+
+    font-family: "silka_monosemibold";
+    text-transform: uppercase;
   }
 }

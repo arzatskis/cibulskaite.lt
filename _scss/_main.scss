@@ -5,9 +5,42 @@
 
 main {
   position: relative;
+  z-index: 1;
   min-height: 100%;
 
   padding-inline: var(--page-padding-inline);
   padding-top: var(--content-top-padding);
-  padding-bottom: var(--content-bottom-padding);
+  margin-bottom: var(--content-bottom-padding);
+
+  background: #fff;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 100% 0 0 0;
+    height: var(--content-bottom-padding);
+
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.00838519) 11.79%,
+      rgba(255, 255, 255, 0.0324148) 21.38%,
+      rgba(255, 255, 255, 0.0704) 29.12%,
+      rgba(255, 255, 255, 0.120652) 35.34%,
+      rgba(255, 255, 255, 0.181481) 40.37%,
+      rgba(255, 255, 255, 0.2512) 44.56%,
+      rgba(255, 255, 255, 0.328119) 48.24%,
+      rgba(255, 255, 255, 0.410548) 51.76%,
+      rgba(255, 255, 255, 0.4968) 55.44%,
+      rgba(255, 255, 255, 0.585185) 59.63%,
+      rgba(255, 255, 255, 0.674015) 64.66%,
+      rgba(255, 255, 255, 0.7616) 70.88%,
+      rgba(255, 255, 255, 0.846252) 78.62%,
+      rgba(255, 255, 255, 0.926281) 88.21%,
+      rgba(255, 255, 255, 1) 100%,
+    );
+
+    pointer-events: none;
+  }
 }

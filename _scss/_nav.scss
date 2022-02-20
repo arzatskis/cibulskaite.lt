@@ -11,19 +11,19 @@
 nav {
   position: fixed;
   inset: var(--nav-inset);
-  z-index: 1;
+  z-index: 5;
 
   display: flex;
   flex-direction: var(--nav-direction);
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 2em;
 
   min-width: var(--logo-width);
   padding-top: 10em;
   padding-bottom: 1.25em;
+  padding-inline: calc(var(--page-padding-inline) * var(--logo-inline-ratio));
 
-  font-size: 12px;
   text-transform: uppercase;
 
   border-bottom: solid var(--safe-area-inset-bottom) white;
@@ -67,11 +67,8 @@ nav {
   & a {
     position: relative;
 
-    color: inherit;
     text-decoration: none;
     font-family: "silka_monosemibold";
-
-    pointer-events: auto;
 
     @media (hover: none) {
       &::after {
@@ -95,7 +92,7 @@ nav {
   @include screen('medium') {
     background: none;
     border-bottom: 0;
-    padding-block: 0;
+    padding: 0;
   }
 }
 
