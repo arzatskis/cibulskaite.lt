@@ -1,13 +1,13 @@
 ---
 title: Tote&nbsp;Bag /kuprinė
 permalink: /backpack
-cover: 01.jpg
+cover: 01.webp
 price: 280
 pictures:
-  - 02.jpg
-  - 03.jpg
-  - 04.jpg
-  - 05.jpg
+  - 02.webp
+  - 03.webp
+  - 04.webp
+  - 05.webp
 ---
 
 Totė bag stiliaus kuprinė, su keliomis papildomomis kišenėmis, išsegama mini delnine.

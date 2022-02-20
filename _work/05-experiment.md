@@ -1,7 +1,7 @@
 ---
 title: Eksperimenas /comming soon
 permalink: /events/spontaniska
-cover: pictures/paint/01.jpg
+cover: pictures/paint/01.webp
 published: false
 ---
 

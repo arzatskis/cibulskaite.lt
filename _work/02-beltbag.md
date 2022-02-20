@@ -1,12 +1,12 @@
 ---
 title: Belt&nbsp;bag /piniginė
 permalink: /beltbag
-cover: 01.jpg
+cover: 01.webp
 price: 80
 pictures:
-  - 02.jpg
-  - 03.jpg
-  - 04.jpg
+  - 02.webp
+  - 03.webp
+  - 04.webp
 ---
 
 Universali, maža odinė rankinė, talpinanti reikalingiausius: telefoną, kortelę, lūpų blizgesį,raktus.

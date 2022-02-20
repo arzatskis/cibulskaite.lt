@@ -1,15 +1,15 @@
 ---
 title: Oversized marškiniai/švarkas
 permalink: /shirt
-cover: 01.jpg
+cover: 01.webp
 price: 150
 pictures:
-  - 02.jpg
-  - 03.jpg
-  - 04.jpg
-  - 05.jpg
-  - 06.jpg
-  - 07.jpg
+  - 02.webp
+  - 03.webp
+  - 04.webp
+  - 05.webp
+  - 06.webp
+  - 07.webp
 ---
 
 Oversized modelio velvetiniai marškiniai

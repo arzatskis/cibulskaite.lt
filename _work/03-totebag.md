@@ -1,15 +1,15 @@
 ---
 title: Tote&nbsp;bag /rankinė
 permalink: /totebag
-cover: 01.jpg
+cover: 01.webp
 name: totebag
 price: 250
 pictures:
-  - 02.jpg
-  - 03.jpg
-  - 04.jpg
-  - 05.jpg
-  - 06.jpg
+  - 02.webp
+  - 03.webp
+  - 04.webp
+  - 05.webp
+  - 06.webp
 ---
 
 Minimlistinė, talpi rankinė, su papildomu ilgu diržu nešioti ant peties.
