@@ -7,11 +7,21 @@ price: 250
 width: 1184
 height: 1776
 pictures:
-  - 02.webp
-  - 03.webp
-  - 04.webp
-  - 05.webp
-  - 06.webp
+  - name: 02.webp
+    width: 1184
+    height: 1776
+  - name: 03.webp
+    width: 1776
+    height: 1184
+  - name: 04.webp
+    width: 1776
+    height: 1184
+  - name: 05.webp
+    width: 1184
+    height: 1776
+  - name: 06.webp
+    width: 1776
+    height: 1184
 ---
 
 Minimlistinė, talpi rankinė, su papildomu ilgu diržu nešioti ant peties.

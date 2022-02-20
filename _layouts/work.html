@@ -8,7 +8,7 @@
     <main>
       <grid>
         <figure faded cover>
-          <img src="{{ '/pictures' | append: page.url | append: '/01.webp' }}">
+          <img src="{{ '/pictures' | append: page.url | append: '/01.webp' }}" width="{{ page.width }}" height="{{ page.height }}">
           <figcaption>
             <h3>{{ page.title }}</h3>
 
@@ -20,7 +20,7 @@
 
         {% for picture in page.pictures %}
           <figure faded>
-            <img src="/pictures{{ page.url }}/{{ picture }}" loading="lazy">
+            <img src="/pictures{{ page.url }}/{{ picture.name }}" loading="lazy" width="{{ picture.width }}" height="{{ picture.height }}">
           </figure>
         {% endfor %}
       </grid>

@@ -6,12 +6,24 @@ price: 150
 width: 1365
 height: 2048
 pictures:
-  - 02.webp
-  - 03.webp
-  - 04.webp
-  - 05.webp
-  - 06.webp
-  - 07.webp
+  - name: 02.webp
+    width: 1365
+    height: 2048
+  - name: 03.webp
+    width: 1365
+    height: 2048
+  - name: 04.webp
+    width: 1365
+    height: 2048
+  - name: 05.webp
+    width: 1365
+    height: 2048
+  - name: 06.webp
+    width: 1365
+    height: 2048
+  - name: 07.webp
+    width: 1365
+    height: 2048
 ---
 
 Oversized modelio velvetiniai marškiniai

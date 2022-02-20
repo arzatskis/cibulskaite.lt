@@ -6,9 +6,15 @@ price: 80
 width: 2000
 height: 2014
 pictures:
-  - 02.webp
-  - 03.webp
-  - 04.webp
+  - name: 02.webp
+    width: 2000
+    height: 2667
+  - name: 03.webp
+    width: 2000
+    height: 2667
+  - name: 04.webp
+    width: 2000
+    height: 2667
 ---
 
 Universali, maža odinė rankinė, talpinanti reikalingiausius: telefoną, kortelę, lūpų blizgesį,raktus.
