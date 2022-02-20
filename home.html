@@ -5,7 +5,7 @@ layout: default
 {% assign sorted = site.work | reverse %}
 {% for work in sorted %}
   <figure faded clickable>
-    <img src="{{ '/pictures' | append: work.url | append: '/01.jpg' }}">
+    <img src="{{ '/pictures' | append: work.url | append: '/01.jpg' }}" {% unless forloop.first %}loading="lazy"{% endunless %}>
     <figcaption>
       <h3>
         <a href="{{ work.url }}">

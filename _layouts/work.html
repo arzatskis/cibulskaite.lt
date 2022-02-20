@@ -20,7 +20,7 @@
 
         {% for picture in page.pictures %}
           <figure faded>
-            <img src="/pictures{{ page.url }}/{{ picture }}">
+            <img src="/pictures{{ page.url }}/{{ picture }}" loading="lazy">
           </figure>
         {% endfor %}
       </grid>
