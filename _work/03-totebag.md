@@ -4,6 +4,8 @@ permalink: /totebag
 cover: 01.webp
 name: totebag
 price: 250
+width: 1184
+height: 1776
 pictures:
   - 02.webp
   - 03.webp

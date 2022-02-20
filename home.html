@@ -5,11 +5,12 @@ layout: default
 {% assign sorted = site.work | reverse %}
 {% for work in sorted %}
   <figure faded clickable>
-    <img src="{{ '/pictures' | append: work.url | append: '/01.webp' }}" {% unless forloop.first %}loading="lazy"{% endunless %}>
+    <img src="{{ '/pictures' | append: work.url | append: '/01.webp' }}" {% unless forloop.first %}loading="lazy"{% endunless %} width="{{ work.width }}" height="{{ work.height }}">
     <figcaption>
       <h3>
         <a href="{{ work.url }}">
           {{ work.title }}
+          {{ pages.sizes[work.url] }}
         </a>
       </h3>
     </figcaption>

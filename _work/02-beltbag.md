@@ -3,6 +3,8 @@ title: Belt&nbsp;bag /piniginė
 permalink: /beltbag
 cover: 01.webp
 price: 80
+width: 3058
+height: 3080
 pictures:
   - 02.webp
   - 03.webp
