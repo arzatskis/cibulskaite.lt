@@ -95,9 +95,10 @@ grid > figure {
 
       &[cover] {
         --start: 2;
-        --span: 9;
+        --span: 10;
         --img-span: 6;
         --cap-start: 7;
+        --cap-span: 4
       }
     }
   }

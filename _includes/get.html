@@ -1,9 +1,11 @@
 <footer>
-  <strong>Kaina: {{ page.price }}€</strong>
+  <p>
+    <strong>Kaina: {{ page.price }}€</strong>
 
-  <a href="mailto:{{ site.order_email }}?subject={{ page.title | uri_escape }}">
-    <strong>Užsakyti</strong>
-  </a>
+    <a href="mailto:{{ site.order_email }}?subject={{ page.title | uri_escape }}">
+      <strong>Užsakyti</strong>
+    </a>
+  </p>
 
   <p>
     <small>
