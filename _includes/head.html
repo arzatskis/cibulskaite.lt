@@ -9,8 +9,8 @@
     {{ site.title }}
   </title>
 
-  <link rel="preload" href="{{ 'fonts/silkamono-regular-webfont.woff2' | absolute_url }}" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="{{ 'fonts/silkamono-semibold-webfont.woff2' | absolute_url }}" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="{{ 'fonts/silkamono-regular-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="{{ 'fonts/silkamono-semibold-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
 
   {% if page.og_title %}<meta content="{{ page.og_title }}" property="og:title">{% endif %}
   {% if page.og_description %}<meta content="{{ page.og_description }}" property="og:description">{% endif %}
