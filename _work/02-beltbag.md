@@ -1,6 +1,7 @@
 ---
 title: Belt&nbsp;bag /piniginė
 permalink: /beltbag
+order: 3
 cover: 01.webp
 price: 80
 width: 2000

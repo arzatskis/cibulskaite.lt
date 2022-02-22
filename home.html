@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign sorted = site.work | reverse %}
+{% assign sorted = site.work | sort: 'order' %}
 {% for work in sorted %}
   <figure faded clickable>
     <img src="{{ '/pictures' | append: work.url | append: '/01.webp' }}" {% unless forloop.first %}loading="lazy"{% endunless %} width="{{ work.width }}" height="{{ work.height }}">

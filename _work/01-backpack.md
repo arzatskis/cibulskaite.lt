@@ -1,6 +1,7 @@
 ---
 title: Tote&nbsp;Bag /kuprinė
 permalink: /backpack
+order: 4
 cover: 01.webp
 price: 280
 width: 1184

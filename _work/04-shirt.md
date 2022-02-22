@@ -1,6 +1,7 @@
 ---
 title: Oversized marškiniai/švarkas
 permalink: /shirt
+order: 1
 cover: 01.webp
 price: 150
 width: 1365

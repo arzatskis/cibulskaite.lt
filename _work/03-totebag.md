@@ -1,6 +1,7 @@
 ---
 title: Tote&nbsp;bag /rankinė
 permalink: /totebag
+order: 2
 cover: 01.webp
 name: totebag
 price: 250
