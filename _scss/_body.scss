@@ -19,6 +19,7 @@
 }
 
 body {
+  position: relative;
   min-height: 100%;
 
   -webkit-font-smoothing: antialiased;
@@ -57,9 +58,9 @@ body {
   }
 
   & > footer {
-    position: sticky;
-    z-index: 0;
-    bottom: 0;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
 
     display: grid;
     align-items: center;

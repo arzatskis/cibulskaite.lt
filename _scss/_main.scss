@@ -5,12 +5,12 @@
 
 main {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   min-height: 100%;
 
   padding-inline: var(--page-padding-inline);
   padding-top: var(--content-top-padding);
-  margin-bottom: var(--content-bottom-padding);
+  margin-bottom: calc(var(--content-bottom-padding) * 2);
 
   background: #fff;
 
