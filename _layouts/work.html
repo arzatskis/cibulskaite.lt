@@ -11,6 +11,7 @@
           {% assign src = '/pictures' | append: page.url | append: '/01.webp' %}
           {% assign width = page.width %}
           {% assign height = page.height %}
+          {% assign eager = true %}
           {% include zoomable-image.html %}
 
           <figcaption>
@@ -27,6 +28,7 @@
             {% assign src = '/pictures' | append: page.url | append: '/' | append: picture.name %}
             {% assign width = picture.width %}
             {% assign height = picture.height %}
+            {% assign eager = false %}
             {% include zoomable-image.html %}
           </figure>
         {% endfor %}
