@@ -13,7 +13,12 @@
   <link rel="preload" href="{{ 'fonts/silkamono-semibold-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
 
   <meta content="{{ page.title }}" property="og:title">
-  <meta content="" property="og:description">
+
+  {% if page.title %}
+  <meta content="Dovilė Cibulskaitė" property="og:description">
+  {% else %}
+  <meta content=" " property="og:description">
+  {% endif %}
 
   {% if page.og %}
   <meta content="{{ '/pictures' | append: page.url | append: '/og.webp' | absolute_url }}" property="og:image">
