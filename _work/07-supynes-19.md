@@ -46,9 +46,9 @@ Mūsų antroji koloboracija su "Supynėm".
 
 Šiais metais kartu su organizatoriais nusprendėme priimti daugiau spalvų, bei prisitaikyti prie kuriamos vizualios festivalio dalies, dėl to atributikoje atsirado daugiau spalvų nei įprastai.
 
-Lieku ištikima "unisex" ir "oversized". Festivalio rūbas, kaip ir davasia - laisva. Merginai tai tunika, vaikinui laisvi maškinėliai.
+Lieku ištikima "unisex" ir "oversized". Festivalio rūbas, kaip ir dvasia - laisva. Merginai tai tunika, vaikinui laisvi maškinėliai.
 
 Lietpaltis - universaliai platus, skirtas tiek miško šokėjam tiek miesto džiunglių gyentojams. Funkcija - raktas į universalumą ir patogumą.
 
-Festivalio tamprės - ryškiausias ‘merch’ akcentas, atvara juodai.
+Festivalio tamprės - ryškiausias ‘merch’ akcentas, atsvara juodai.
 
