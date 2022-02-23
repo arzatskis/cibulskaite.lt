@@ -34,8 +34,6 @@ pictures:
     height: 2048
 ---
 
-Oversized modelio velvetiniai marškiniai
-
 Idėjos kaltininkė ir autorė Sandra iš [Udum](https://instagram.com/udum_bydumce)! Vieną dieną atėjo tiesiai į studiją, sako “žinai gal aš ir crazy, bet labai noriu siūti marškinius, ir dar velvetinius! Darom kartu?” Gavosi ne tik, kad marškiniai - tai jau visas švarkas!
 Žinoma net neabejojau sutikau ir štai gimė naujas “collab” !
 
