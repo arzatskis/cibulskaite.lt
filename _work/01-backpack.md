@@ -1,5 +1,6 @@
 ---
 title: Tote&nbsp;Bag /kuprinė
+og: true
 permalink: /backpack
 order: 4
 cover: 01.webp

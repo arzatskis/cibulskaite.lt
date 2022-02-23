@@ -1,5 +1,6 @@
 ---
 title: Belt&nbsp;bag /piniginė
+og: true
 permalink: /beltbag
 order: 3
 cover: 01.webp

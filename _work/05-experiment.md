@@ -1,5 +1,6 @@
 ---
 title: Eksperimenas /comming soon
+og: true
 permalink: /events/spontaniska
 cover: pictures/paint/01.webp
 published: false

@@ -1,5 +1,6 @@
 ---
 title: Oversized marškiniai/švarkas
+og: true
 permalink: /shirt
 order: 1
 cover: 01.webp

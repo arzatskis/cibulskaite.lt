@@ -12,9 +12,14 @@
   <link rel="preload" href="{{ 'fonts/silkamono-regular-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="{{ 'fonts/silkamono-semibold-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
 
-  {% if page.og_title %}<meta content="{{ page.og_title }}" property="og:title">{% endif %}
-  {% if page.og_description %}<meta content="{{ page.og_description }}" property="og:description">{% endif %}
-  {% if page.og_image %}<meta content="{{ page.og_image }}" property="og:image">{% endif %}
+  <meta content="{{ page.title }}" property="og:title">
+  <meta content="Dovilė Cibulskaitė" property="og:description">
+
+  {% if page.og %}
+  <meta content="{{ '/pictures' | append: page.url | append: '/og.webp' | absolute_url }}" property="og:image">
+  {% else %}
+  <meta content="{{ '/pictures/about/og.webp' | absolute_url }}" property="og:image">
+  {% endif %}
 
   <link rel="stylesheet" href="{{ 'site.css' | relative_url }}" />
 

@@ -1,5 +1,6 @@
 ---
 title: Tote&nbsp;bag /rankinė
+og: true
 permalink: /totebag
 order: 2
 cover: 01.webp

@@ -1,5 +1,6 @@
 ---
 title: Supynės'19 /merch
+og: true
 permalink: /supynes-19
 cover: 01.webp
 order: 6

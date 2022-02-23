@@ -1,5 +1,6 @@
 ---
 title: Supynės'15 /merch
+og: true
 permalink: /supynes-15
 cover: 01.webp
 order: 5
