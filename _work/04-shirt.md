@@ -26,6 +26,12 @@ pictures:
   - name: 07.webp
     width: 1365
     height: 2048
+  - name: 08.webp
+    width: 1365
+    height: 2048
+  - name: 09.webp
+    width: 1365
+    height: 2048
 ---
 
 Oversized modelio velvetiniai marškiniai
