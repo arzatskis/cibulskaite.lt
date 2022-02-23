@@ -36,6 +36,13 @@ pictures:
 
 Oversized modelio velvetiniai marškiniai
 
+Idėjos kaltininkė ir autorė Sandra iš [Udum](https://instagram.com/udum_bydumce)! Vieną dieną atėjo tiesiai į studiją, sako “žinai gal aš ir crazy, bet labai noriu siūti marškinius, ir dar velvetinius! Darom kartu?” Gavosi ne tik, kad marškiniai - tai jau visas švarkas!
+Žinoma net neabejojau sutikau ir štai gimė naujas “collab” !
+
+Dizainą kūrėm tokį kokį pačios nešiotume, viską iki detalių sudėliojom ir neslėpsiu - tos detalės suvalgo didžiają gamybos darbo dalį!
+
+Sandra juos siuva savo siuvykloje, nuo nulio iki galutinio rezultato, taip sumažėja lakstymo po miestą laikas,kvepia tvarumu ir vienų rankų gaminamų produktu. Kokybės kontrolė garantuota.
+
 Spalvos: ledų rožinė, gaivi mėta, kramtoškės mėlyna, juoda juoda
 
 Velvetinis audinys - sertifikuotas OEKO-TEX Standart 100
@@ -46,5 +53,3 @@ Sukurta mūsų dydžių formuluotė padės išsirinkti kuris dydis tinka Tau!
 2 dydis ūgiui iki 183 cm
 3 dydis - privatus užsakymas
 
-Jei turite visai nestandartinę figūrą, už šiek tiek didesnę kainą Jus išmatuosime ir pasiūsime Jums tinkamus šio modelio oversized marškinius.
-Tavo pasirinkimas - vidaus apdailos kantelio spalva iš mūsų trijų siūlomų!!!
