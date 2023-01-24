@@ -4,7 +4,7 @@ og: true
 permalink: /beltbag
 order: 3
 cover: 01.webp
-price: 80
+price: 90
 width: 2000
 height: 2014
 pictures:
