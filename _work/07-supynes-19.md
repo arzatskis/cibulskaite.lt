@@ -42,7 +42,7 @@ pictures:
     height: 1575
 ---
 
-Mūsų antroji koloboracija su "Supynėm".
+Antras darbas su "Supynių" organizatoriais.
 
 Šiais metais kartu su organizatoriais nusprendėme priimti daugiau spalvų, bei prisitaikyti prie kuriamos vizualios festivalio dalies, dėl to atributikoje atsirado daugiau spalvų nei įprastai.
 
