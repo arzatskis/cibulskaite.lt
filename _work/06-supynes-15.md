@@ -27,7 +27,7 @@ pictures:
     height: 1333
 ---
 
-Mano pirmoji koloboracija su garsiausiu Lietuvoje techno muzikos festivaliu "Sūpynės".
+Mūsų pirmas bendras darbas garsiausiu Lietuvoje techno muzikos festivaliu "Sūpynės".
 
 Ne naujiena - juoda spalva sieja techno muzikos mylėtojus, klubinėtojus, reiverius, miesto džiunglių nindzes. Juoda and juodos. Juodos aprangos su juodais faktūriniais logotipais - "less is more" tampa festivalio aprangos kodu. Rūbų filosofija - ilgaaamžiškumas bei pritaikomumas miestietiško ritmo gyvenimui. Drabužiai unisex, tinka ir vyrams ir moterims.
 
