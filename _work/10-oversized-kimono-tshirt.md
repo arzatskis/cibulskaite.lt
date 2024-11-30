@@ -51,9 +51,9 @@ Unisex style
 TWO SIZES
 
 **Small**
-Lenght from shoulder 69 cm, width 57 cm, sleeve lenght 24 cm, sleeve width 28 cm
+length from shoulder 69 cm, width 57 cm, sleeve length 24 cm, sleeve width 28 cm
 
 **Big**
-Lenght from shoulder 79 cm, 67 width cm, sleeve lenght 34 cm, sleeve width 38 cm
+length from shoulder 79 cm, 67 width cm, sleeve length 34 cm, sleeve width 38 cm
 
 (model and me in pictures are both wearing SMALL. She is 170 cm tall - oversize fit for both)
