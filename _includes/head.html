@@ -1,29 +1,42 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>
-    {% if page.title %}
-      {{ page.title }} &middot;
-    {% endif %}
-    {{ site.title }}
+    {% if page.title %} {{ page.title }} &middot; {% endif %} {{ site.title }}
   </title>
 
-  <link rel="preload" href="{{ 'fonts/silkamono-regular-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="{{ 'fonts/silkamono-semibold-webfont.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin="anonymous">
+  <link
+    rel="preload"
+    href="{{ 'fonts/silkamono-regular-webfont.woff2' | relative_url }}"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="preload"
+    href="{{ 'fonts/silkamono-semibold-webfont.woff2' | relative_url }}"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+  />
 
-  <meta content="{{ page.title }}" property="og:title">
+  <meta content="{{ page.title }}" property="og:title" />
 
   {% if page.title %}
-  <meta content="Dovilė Cibulskaitė" property="og:description">
+  <meta content="Dovilė Cibulskaitė" property="og:description" />
   {% else %}
-  <meta content=" " property="og:description">
-  {% endif %}
-
-  {% if page.og %}
-  <meta content="{{ '/pictures' | append: page.url | append: '/og.webp' | absolute_url }}" property="og:image">
+  <meta content=" " property="og:description" />
+  {% endif %} {% if page.og %}
+  <meta
+    content="{{ '/pictures' | append: page.url | append: '/og.jpg' | absolute_url }}"
+    property="og:image"
+  />
   {% else %}
-  <meta content="{{ '/pictures/about/og.webp' | absolute_url }}" property="og:image">
+  <meta
+    content="{{ '/pictures/about/og.jpg' | absolute_url }}"
+    property="og:image"
+  />
   {% endif %}
 
   <link rel="stylesheet" href="{{ 'site.css' | relative_url }}" />

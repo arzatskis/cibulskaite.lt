@@ -8,35 +8,28 @@
     <main>
       <grid id="skr">
         <figure faded cover>
-          {% assign src = '/pictures' | append: page.url | append: '/01.webp' %}
-          {% assign width = page.width %}
-          {% assign height = page.height %}
-          {% assign eager = true %}
-          {% include zoomable-image.html %}
+          {% assign src = '/pictures' | append: page.url | append: '/01.jpg' %}
+          {% assign width = page.width %} {% assign height = page.height %} {%
+          assign eager = true %} {% include zoomable-image.html %}
 
           <figcaption>
             <h3>{{ page.title }}</h3>
 
-            {{ content }}
-
-            {% include get.html %}
+            {{ content }} {% include get.html %}
           </figcaption>
         </figure>
 
         {% for picture in page.pictures %}
-          <figure faded>
-            {% assign src = '/pictures' | append: page.url | append: '/' | append: picture.name %}
-            {% assign width = picture.width %}
-            {% assign height = picture.height %}
-            {% assign eager = false %}
-            {% include zoomable-image.html %}
-          </figure>
+        <figure faded>
+          {% assign src = '/pictures' | append: page.url | append: '/' | append:
+          picture.name %} {% assign width = picture.width %} {% assign height =
+          picture.height %} {% assign eager = false %} {% include
+          zoomable-image.html %}
+        </figure>
         {% endfor %}
       </grid>
     </main>
 
-    {% include cta.html %}
-    {% include scripts.html %}
-    {% include gallery.html %}
+    {% include cta.html %} {% include scripts.html %} {% include gallery.html %}
   </body>
 </html>
