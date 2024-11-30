@@ -45,8 +45,4 @@ pictures:
 
 Effortless tote backpack crafted in Lithiania from cow leather that will drape naturally next to the body. It has an adjustable straps fastened with a silver-tone metal carabiners what can be adjusted in few ways, as backbag starps or one sholder strap, and opens with a zipper leading to a natural leather interior with inside pocket. Carry it alongside everyday looks.
 
-**Measurments**
-
-Height: 39cm
-Lenght: 40cm
-Width: 16cm
+**Measurements**: 39&times;40&times;16cm

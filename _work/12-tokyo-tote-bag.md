@@ -47,8 +47,4 @@ bag sculpted to a grumpy bucket silhouette that can hold your everyday essential
 
 Style it with weekday and weekend looks, go for a small grocery shopping or exhibition opening.
 
-**Measurments**
-
-Height 30cm
-Width 44/45cm
-Depth 22cm
+**Measurements**: 30&times;45&times;22cm

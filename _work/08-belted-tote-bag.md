@@ -51,7 +51,4 @@ This hand-made tote bag is versatile and can be styled with a range of outfits, 
 
 By adhering to the principles of Wabi-Sabi and minimalistic design, I strive to create products that are not only visually pleasing but also have a deeper connection to nature and simplicity. This tote bag is a testament to my design philosophy and represents the beauty that lies in embracing imperfections and simplicity.
 
-**Measurments**
-
-Horizontal 40cm
-Vertical 40cm
+**Measurements**: 40&times;40cm

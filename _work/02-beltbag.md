@@ -23,7 +23,4 @@ Bestseller bag suspended from a leather strap that can be adjusted to carry from
 
 Extra pocket inside the bag
 
-**Measurments**
-
-Horizontal 22cm
-Vertical 17cm
+**Measurements**: 22&times;17cm
