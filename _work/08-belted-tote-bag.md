@@ -5,42 +5,33 @@ price: 300
 og: true
 cover: 01.jpg
 order: 7
-width: 2000
-height: 3010
+width: 1463
+height: 2048
 pictures:
   - name: 02.jpg
-    width: 1181
-    height: 1575
+    width: 1463
+    height: 2048
   - name: 03.jpg
-    width: 1181
-    height: 1575
+    width: 1463
+    height: 2048
   - name: 04.jpg
-    width: 1181
-    height: 1575
+    width: 1463
+    height: 2048
   - name: 05.jpg
-    width: 2000
-    height: 3010
+    width: 1463
+    height: 2048
   - name: 06.jpg
-    width: 2000
-    height: 3010
+    width: 1463
+    height: 2048
   - name: 07.jpg
-    width: 1181
-    height: 1575
+    width: 1463
+    height: 2048
   - name: 08.jpg
-    width: 2000
-    height: 3010
+    width: 2433
+    height: 3610
   - name: 09.jpg
-    width: 1181
-    height: 1575
-  - name: 10.jpg
-    width: 2000
-    height: 1333
-  - name: 11.jpg
-    width: 1181
-    height: 1575
-  - name: 12.jpg
-    width: 1181
-    height: 1575
+    width: 2433
+    height: 3610
 ---
 
 The belted minimalist tote bag is crafted with care, using high-quality natural leather. Instead of hiding the unique patterns and imperfections of the leather, I intentionally emphasize them to showcase the beauty of the material. The inclusion of animal scars adds a touch of rawness and authenticity to the design.
