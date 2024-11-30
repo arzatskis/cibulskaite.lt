@@ -3,16 +3,24 @@ layout: default
 permalink: /
 ---
 
-{% assign sorted = site.work | sort: 'order' %}
-{% for work in sorted %}
-  <figure faded clickable>
-    <img src="{{ '/pictures' | append: work.url | append: '/01.webp' }}" {% unless forloop.first %}loading="lazy"{% endunless %} width="{{ work.width }}" height="{{ work.height }}">
-    <figcaption>
-      <h3>
-        <a href="{{ work.url }}">
-          {{ work.title }}
-        </a>
-      </h3>
-    </figcaption>
-  </figure>
+{% assign sorted = site.work | sort: 'order' %} {% for work in sorted %}
+<figure faded clickable>
+  <img
+    src="{{ '/pictures' | append: work.url | append: '/01.jpg' }}"
+    {%
+    unless
+    forloop.first
+    %}loading="lazy"
+    {%
+    endunless
+    %}
+    width="{{ work.width }}"
+    height="{{ work.height }}"
+  />
+  <figcaption>
+    <h3>
+      <a href="{{ work.url }}"> {{ work.title }} </a>
+    </h3>
+  </figcaption>
+</figure>
 {% endfor %}

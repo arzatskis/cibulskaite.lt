@@ -1,27 +1,38 @@
 ---
-title: Belt&nbsp;bag /piniginė
+title: Belt bag
 og: true
 permalink: /beltbag
-order: 3
-cover: 01.webp
+order: 6
+cover: 01.jpg
 price: 90
-width: 2000
-height: 2014
+width: 1463
+height: 2048
 pictures:
-  - name: 02.webp
-    width: 2000
-    height: 2667
-  - name: 03.webp
-    width: 2000
-    height: 2667
-  - name: 04.webp
-    width: 2000
-    height: 2667
+  - name: 02.jpg
+    width: 1463
+    height: 2048
+  - name: 03.jpg
+    width: 1463
+    height: 2048
+  - name: 04.jpg
+    width: 1463
+    height: 2048
+  - name: 05.jpg
+    width: 1463
+    height: 2048
+  - name: 06.jpg
+    width: 3610
+    height: 2433
+  - name: 07.jpg
+    width: 2433
+    height: 3610
+  - name: 08.jpg
+    width: 2433
+    height: 3610
 ---
 
-Universali, maža odinė rankinė, talpinanti reikalingiausius: telefoną, kortelę, lūpų blizgesį,raktus.
-Mano mylimiausias kasdienos aksesuaras, toks patogus, jog netgi atskiros piniginės aš ir nebenešioju, o jei reikia susutalpinti žymiai daugiau, tam griebiu kuprinę ar tote bag, o šis belt bag tiesiog lieka kabėjąs po pažastim :)
+Bestseller bag suspended from a leather strap that can be adjusted to carry from the shoulder or waist. It's made in Lithuania from cow leather with a press stud closure leading to a natural leather interior with slip pocket. Use it to elevate day-to-evening looks.
 
-Viduje su papildoma kišenė. Universalus nešiojimo būdas, kaip diržas per juosmenį ar ant peties.
+Extra pocket inside the bag
 
-Pagrindinis akcentas - rankenos papildymas - raktų pakabukas su grandinėle. Grandinėles perku “antrų rankų” parduotuvėse, kas kelias savaites išeinu į grandinėlių medžioklę, tam, kad vis pasipildyčiau kolekciją, kuria pastoviai pernaudoju tašiukų akcentų kūrimui. Tokiu būdų gaunasi sukurti  kiekvienai rankinei po unikalų raktų pakabuką.
+**Measurements**: 22&times;17cm

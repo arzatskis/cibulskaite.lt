@@ -1,16 +1,16 @@
 {% if page.price %}
 <footer>
   <p>
-    <strong>Kaina: {{ page.price }}€</strong>
+    <strong>Price: {{ page.price }}€</strong>
 
     <a href="mailto:{{ site.order_email }}?subject={{ page.title | uri_escape }}">
-      <strong>Užsakyti</strong>
+      <strong>Order</strong>
     </a>
   </p>
 
   <p>
     <small>
-      Gaminiai siūnami rankomis, patvirtinus Jūsų užsakymą, todėl gali užtrukti iki 2 savaičių
+      All products are made to order. It can take up to 2 weeks before it's made and shipped
     </small>
   </p>
 </footer>

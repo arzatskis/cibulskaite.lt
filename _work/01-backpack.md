@@ -1,23 +1,24 @@
 ---
+published: false
 title: Tote&nbsp;Bag /kuprinė
 og: true
 permalink: /backpack
-order: 4
-cover: 01.webp
+order: 6
+cover: 01.jpg
 price: 280
 width: 1184
 height: 1776
 pictures:
-  - name: 02.webp
+  - name: 02.jpg
     width: 1776
     height: 1184
-  - name: 03.webp
+  - name: 03.jpg
     width: 1184
     height: 1776
-  - name: 04.webp
+  - name: 04.jpg
     width: 1776
     height: 1184
-  - name: 05.webp
+  - name: 05.jpg
     width: 1184
     height: 1776
 ---
