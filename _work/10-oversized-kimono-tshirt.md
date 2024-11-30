@@ -4,15 +4,15 @@ permalink: /oversized-kimono-tshirt
 price: 60
 cover: 01.jpg
 order: 5
-width: 1463
-height: 2048
+width: 2133
+height: 2597
 pictures:
   - name: 02.jpg
     width: 4800
     height: 3200
   - name: 03.jpg
-    width: 2133
-    height: 3200
+    width: 1463
+    height: 2048
   - name: 04.jpg
     width: 4800
     height: 3200
