@@ -2,27 +2,27 @@
 title: Supynės'15 /merch
 og: true
 permalink: /supynes-15
-cover: 01.webp
+cover: 01.jpg
 order: 5
 width: 2000
 height: 3317
 pictures:
-  - name: 02.webp
+  - name: 02.jpg
     width: 2000
     height: 3000
-  - name: 03.webp
+  - name: 03.jpg
     width: 2000
     height: 3019
-  - name: 04.webp
+  - name: 04.jpg
     width: 2000
     height: 1573
-  - name: 05.webp
+  - name: 05.jpg
     width: 2000
     height: 3000
-  - name: 06.webp
+  - name: 06.jpg
     width: 2000
     height: 3123
-  - name: 07.webp
+  - name: 07.jpg
     width: 2000
     height: 1333
 ---

@@ -3,18 +3,18 @@ title: Belt&nbsp;bag /piniginė
 og: true
 permalink: /beltbag
 order: 3
-cover: 01.webp
+cover: 01.jpg
 price: 90
 width: 2000
 height: 2014
 pictures:
-  - name: 02.webp
+  - name: 02.jpg
     width: 2000
     height: 2667
-  - name: 03.webp
+  - name: 03.jpg
     width: 2000
     height: 2667
-  - name: 04.webp
+  - name: 04.jpg
     width: 2000
     height: 2667
 ---

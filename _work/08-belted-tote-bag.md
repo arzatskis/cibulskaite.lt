@@ -3,42 +3,42 @@ title: Belted Tote&nbsp;Bag
 permalink: /belted-tote-bag
 price: 300
 og: true
-cover: 01.webp
+cover: 01.jpg
 order: 7
 width: 2000
 height: 3010
 pictures:
-  - name: 02.webp
+  - name: 02.jpg
     width: 1181
     height: 1575
-  - name: 03.webp
+  - name: 03.jpg
     width: 1181
     height: 1575
-  - name: 04.webp
+  - name: 04.jpg
     width: 1181
     height: 1575
-  - name: 05.webp
+  - name: 05.jpg
     width: 2000
     height: 3010
-  - name: 06.webp
+  - name: 06.jpg
     width: 2000
     height: 3010
-  - name: 07.webp
+  - name: 07.jpg
     width: 1181
     height: 1575
-  - name: 08.webp
+  - name: 08.jpg
     width: 2000
     height: 3010
-  - name: 09.webp
+  - name: 09.jpg
     width: 1181
     height: 1575
-  - name: 10.webp
+  - name: 10.jpg
     width: 2000
     height: 1333
-  - name: 11.webp
+  - name: 11.jpg
     width: 1181
     height: 1575
-  - name: 12.webp
+  - name: 12.jpg
     width: 1181
     height: 1575
 ---

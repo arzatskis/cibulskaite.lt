@@ -3,33 +3,33 @@ title: Oversized marškiniai/švarkas
 og: true
 permalink: /shirt
 order: 1
-cover: 01.webp
+cover: 01.jpg
 price: 150
 width: 1365
 height: 2048
 pictures:
-  - name: 02.webp
+  - name: 02.jpg
     width: 1365
     height: 2048
-  - name: 03.webp
+  - name: 03.jpg
     width: 1365
     height: 2048
-  - name: 04.webp
+  - name: 04.jpg
     width: 1365
     height: 2048
-  - name: 05.webp
+  - name: 05.jpg
     width: 1365
     height: 2048
-  - name: 06.webp
+  - name: 06.jpg
     width: 1365
     height: 2048
-  - name: 07.webp
+  - name: 07.jpg
     width: 1365
     height: 2048
-  - name: 08.webp
+  - name: 08.jpg
     width: 1365
     height: 2048
-  - name: 09.webp
+  - name: 09.jpg
     width: 1365
     height: 2048
 ---
@@ -45,9 +45,8 @@ Spalvos: ledų rožinė, gaivi mėta, kramtoškės mėlyna, juoda juoda
 
 Velvetinis audinys - sertifikuotas OEKO-TEX Standart 100
 
-Sudėtis: 97 % medvilė,  3% elastanas
+Sudėtis: 97 % medvilė, 3% elastanas
 Sukurta mūsų dydžių formuluotė padės išsirinkti kuris dydis tinka Tau!
 1 dydis ūgiui iki 172 cm
 2 dydis ūgiui iki 183 cm
 3 dydis - privatus užsakymas
-
