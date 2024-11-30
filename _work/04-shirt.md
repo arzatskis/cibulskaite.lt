@@ -1,5 +1,5 @@
 ---
-title: Oversized marškiniai/švarkas
+title: Oversized shirt/jacket
 og: true
 permalink: /shirt
 order: 101
