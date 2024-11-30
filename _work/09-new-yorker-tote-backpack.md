@@ -2,9 +2,8 @@
 title: New Yorker Tote/Backpack
 permalink: /new-yorker-tote-backpack
 price: 320
-og: true
 cover: 01.jpg
-order: 6
+order: 4
 width: 1463
 height: 2048
 pictures:

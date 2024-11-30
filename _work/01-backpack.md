@@ -3,7 +3,7 @@ published: false
 title: Tote&nbsp;Bag /kuprinė
 og: true
 permalink: /backpack
-order: 4
+order: 6
 cover: 01.jpg
 price: 280
 width: 1184

@@ -3,7 +3,7 @@ title: Oversized Kimono T-Shirt
 permalink: /oversized-kimono-tshirt
 price: 60
 cover: 01.jpg
-order: 6
+order: 5
 width: 1463
 height: 2048
 pictures:

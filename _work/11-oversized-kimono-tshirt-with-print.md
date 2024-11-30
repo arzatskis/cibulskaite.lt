@@ -2,9 +2,8 @@
 title: Oversized Kimono T-Shirt with Print
 permalink: /oversized-kimono-tshirt-with-print
 price: 60
-og: true
 cover: 01.jpg
-order: 6
+order: 3
 width: 2400
 height: 3200
 pictures:

@@ -2,9 +2,8 @@
 title: Tokyo Tote&nbsp;Bag
 permalink: /tokyo-tote-bag
 price: 180
-og: true
 cover: 01.jpg
-order: 6
+order: 1
 width: 1463
 height: 2048
 pictures:
