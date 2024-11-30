@@ -2,9 +2,8 @@
 title: Oversized marškiniai/švarkas
 og: true
 permalink: /shirt
-order: 1
+order: 101
 cover: 01.jpg
-price: 150
 width: 1365
 height: 2048
 pictures:
