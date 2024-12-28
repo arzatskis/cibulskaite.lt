@@ -25,9 +25,6 @@ pictures:
   - name: 07.jpg
     width: 1463
     height: 2048
-  - name: 08.jpg
-    width: 1463
-    height: 2048
   - name: 09.jpg
     width: 1463
     height: 2048
