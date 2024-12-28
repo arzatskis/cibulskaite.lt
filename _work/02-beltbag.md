@@ -4,7 +4,7 @@ og: true
 permalink: /beltbag
 order: 6
 cover: 01.jpg
-price: 90
+price: 110
 width: 1463
 height: 2048
 pictures:
