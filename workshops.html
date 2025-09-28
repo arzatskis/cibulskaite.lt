@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /workshops
+---
+
+{% assign sorted = site.workshops | sort: 'order' %} {% for workshop in sorted %}
+<figure faded clickable>
+  <img
+    src="{{ '/pictures' | append: workshop.url | append: '/01.jpg' }}"
+    {%
+    unless
+    forloop.first
+    %}loading="lazy"
+    {%
+    endunless
+    %}
+    width="{{ workshop.width }}"
+    height="{{ workshop.height }}"
+  />
+  <figcaption>
+    <h3>
+      <a href="{{ workshop.url }}"> {{ workshop.title }} </a>
+    </h3>
+  </figcaption>
+</figure>
+{% endfor %}

@@ -1,4 +1,4 @@
-title: Dovilė Cibulskaitė
+title: dovi.studio × Dovilė Cibulskaitė
 order_email: labas@cibulskaite.lt
 instagram_url: https://instagram.com/dovi_studio/
 messenger_url: https://m.me/cibulskaitedovile
@@ -19,10 +19,17 @@ sass:
 collections:
   work:
     output: true
+  workshops:
+    output: true
 
 defaults:
   - scope:
       path: ""
       type: work
+    values:
+      layout: work
+  - scope:
+      path: workshops
+      type: workshop
     values:
       layout: work

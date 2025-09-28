@@ -2,3 +2,13 @@ a {
   pointer-events: auto;
   color: inherit;
 }
+
+a[data-cta] {
+  text-decoration: none;
+  padding: 6px 12px;
+  background: currentColor;
+
+  strong {
+    color: white;
+  }
+}

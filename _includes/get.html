@@ -1,18 +1,27 @@
 {% if page.price %}
 <footer>
+  {% if page.checkout %}
+  <p>
+    <a href="{{ page.checkoutlink }}" data-cta>
+      <strong>Book your slot here →</strong>
+    </a>
+    <p>
+      <small>Full or partial refund, change of date are available if notified in at least 2 weeks before planned workshop day.</small>
+    </p>
+  </p>
+  {% else %}
   <p>
     <strong>Price: {{ page.price }}€</strong>
-
     <a href="mailto:{{ site.order_email }}?subject={{ page.title | uri_escape }}">
       <strong>Order</strong>
     </a>
   </p>
-
   <p>
     <small>
       All products are made to order. It can take up to 2 weeks before it's made and shipped
     </small>
   </p>
+  {% endif %}
 </footer>
 {% endif %}
 

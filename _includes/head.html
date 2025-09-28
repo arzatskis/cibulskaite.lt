@@ -8,14 +8,14 @@
 
   <link
     rel="preload"
-    href="{{ 'fonts/silkamono-regular-webfont.woff2' | relative_url }}"
+    href="{{ 'fonts/silkamono-regular-webfont.woff2' | absolute_url }}"
     as="font"
     type="font/woff2"
     crossorigin="anonymous"
   />
   <link
     rel="preload"
-    href="{{ 'fonts/silkamono-semibold-webfont.woff2' | relative_url }}"
+    href="{{ 'fonts/silkamono-semibold-webfont.woff2' | absolute_url }}"
     as="font"
     type="font/woff2"
     crossorigin="anonymous"
@@ -39,9 +39,9 @@
   />
   {% endif %}
 
-  <link rel="stylesheet" href="{{ 'site.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ 'site.css' | absolute_url }}" />
 
   {% if page.layout == 'work' %}
-  <link rel="stylesheet" href="{{ 'gallery.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ 'gallery.css' | absolute_url }}" />
   {% endif %}
 </head>
