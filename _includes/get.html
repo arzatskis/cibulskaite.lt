@@ -2,7 +2,11 @@
 <footer>
   {% if page.checkout %}
   <p>
+    {% if page.active == false %}
+    <a href="mailto:{{ site.order_email }}?subject={{ page.title | replace: '&nbsp;', ' ' | uri_escape }}" data-cta>
+    {% else %}
     <a href="{{ page.checkout }}" data-cta>
+    {% endif %}
       <strong>{{ page.cta | default: "Book your slot here →" }}</strong>
     </a>
     {% if page.refundable %}

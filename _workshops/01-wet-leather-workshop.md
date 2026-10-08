@@ -1,6 +1,7 @@
 ---
 layout: work
 published: true
+active: false
 type: workshop
 title: Wet Leather Moulding&nbsp;Workshop
 og: true

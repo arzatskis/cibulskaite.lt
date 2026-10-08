@@ -1,6 +1,7 @@
 ---
 layout: work
 published: true
+active: true
 type: workshop
 title: Belt-Bag rankinės&nbsp;dirbtuvės
 og: true
