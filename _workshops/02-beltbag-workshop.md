@@ -2,7 +2,7 @@
 layout: work
 published: true
 type: workshop
-title: Belt-bag rankinuko&nbsp;dirbtuvės
+title: Belt-Bag rankinės&nbsp;dirbtuvės
 og: true
 permalink: /workshops/beltbag
 checkout: https://buy.stripe.com/6oU28k9BQ9r084R8h7cMM03
@@ -39,15 +39,15 @@ pictures:
 
 Odos siuvimo dirbtuvės dovi.studio erdvėje — odinių gaminių dirbtuvėse, kur menas, mada ir oda susitinka Galerie POP-UP metu.
 
-Per 6–7 valandas, palydimas kavos pertraukėlės, mokysiu odos siuvimo meno — gaminsime ir siūsime mūsų bestseleriu tapusią Belt Bag rankinę. Nuo pirmo pjūvio, siūlo ir dviejų adatų iki paskutinės detalės.
-
-**Ką sužinosi**
-
-- odos rūšys — chrome tan vs veg tan
-- rankinio siuvimo įrankiai ir jų naudojimas
-- odos pjovimas ir paruošimas siuvimui
-- rankinis siuvimas
-- furnitūros įdėjimas
-- logo įspaudimas karštu presu
+Per 6–7 valandas, lydimas kavos pertraukėlės, mokysiu odos siuvimo meno — gaminsime ir siūsime mano bestseleriu tapusią Belt Bag rankinę. Nuo pirmo pjūvio, siūlo ir dviejų adatų iki paskutinės detalės.
 
 Pasirinksi odą: matinę, blizgi1 arba su raštu. Iš dirbtuvių išeisi su pačios/pačio pasiūta diržo pinigine, papuošta dovi.studio logo.
+
+**Ką išmoksi**
+
+- atpažinti odos rūšis
+- naudotis rankinio siuvimo įrankiais
+- pjauti ir paruošti odą siuvimui
+- siūti odą rankomis
+- dėti furnitūra į idinius gaminius
+- įspausti logotipus odoje karštu presu
