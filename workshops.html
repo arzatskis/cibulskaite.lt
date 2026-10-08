@@ -3,7 +3,7 @@ layout: default
 permalink: /workshops
 ---
 
-{% assign sorted = site.workshops | sort: 'order' %} {% for workshop in sorted %}
+{% assign sorted = site.workshops | sort: 'order' | reverse %} {% for workshop in sorted %}
 <figure faded clickable>
   <img
     src="{{ '/pictures' | append: workshop.url | append: '/01.jpg' }}"
