@@ -6,7 +6,7 @@ type: workshop
 title: Belt-Bag rankinės&nbsp;dirbtuvės
 og: true
 permalink: /workshops/beltbag
-checkout: https://buy.stripe.com/6oU28k9BQ9r084R8h7cMM03
+checkout: https://buy.stripe.com/00w14gg0e5aKfxjeFvcMM08
 cta: Registruokis čia →
 order: 2
 cover: 01.jpg
