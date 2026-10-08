@@ -40,9 +40,9 @@ pictures:
 
 Odos siuvimo dirbtuvės dovi.studio erdvėje — odinių gaminių dirbtuvėse, kur menas, mada ir oda susitinka Galerie POP-UP metu.
 
-Per 6–7 valandas, lydimas kavos pertraukėlės, mokysiu odos siuvimo meno — gaminsime ir siūsime mano bestseleriu tapusią Belt Bag rankinę. Nuo pirmo pjūvio, siūlo ir dviejų adatų iki paskutinės detalės.
+Per 6–7 valandas, lydimas kavos pertraukėlės, mokysiu odos siuvimo meno - gaminsime ir siūsime mano bestseleriu tapusią Belt Bag rankinę. Nuo pirmo pjūvio, siūlo ir dviejų adatų iki paskutinės detalės.
 
-Pasirinksi odą: matinę, blizgi1 arba su raštu. Iš dirbtuvių išeisi su pačios/pačio pasiūta diržo pinigine, papuošta dovi.studio logo.
+Pasirinksi odą: matinę, blizgią arba su raštu. Iš dirbtuvių išeisi su pačios/pačio pasiūta diržo pinigine, papuošta dovi.studio logo.
 
 **Ką išmoksi**
 
