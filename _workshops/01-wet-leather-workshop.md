@@ -3,10 +3,11 @@ layout: work
 published: true
 active: false
 type: workshop
-title: Wet Leather Moulding&nbsp;Workshop
+title: Šlapios odos formavimo&nbsp;dirbtuvės
 og: true
 permalink: /workshops/wet-leather-workshop
 checkout: https://book.stripe.com/9B6eV68xM1YygBn54VcMM00
+cta: Parašykite čia →
 order: 1
 cover: 01.jpg
 price: 275
@@ -21,38 +22,38 @@ pictures:
     height: 1776
 ---
 
-**Price**: 275 EUR
+**Kaina**: 275 €
 
-**Duration**: 5-6 hours (including break)
+**Trukmė**: 5–6 val. (su pertrauka)
 
-**Group size**: Max 4 people
+**Grupė**: iki 4 žmonių
 
-**Location**: Private studio in Verkiai regional park area, Vilnius
+**Vieta**: Privati studija Verkių regioninio parko apylinkėse, Vilnius
 
-**Date & time**: Workshops happen once a month on weekends.<br>
-<small>We'll arrange exact date that works for you when next slots are known.</small>
+**Data ir laikas**: Dirbtuvės vyksta kartą per mėnesį savaitgaliais.<br>
+<small>Tikslią datą suderinsime, kai bus žinomos kitos laisvos datos.</small>
 
 ---
 
-In my work and designs, I value a minimal, modern approach: clean lines, black tones, and timeless design that speaks to city lovers who want pieces that are not only expressive but practical at the same time.
+Savo darbuose ir dizaine vertinu minimalų, šiuolaikišką požiūrį: švarios linijos, juodi tonai ir nesenstantis dizainas, kalbantis miesto mylėtojams, kurie nori daiktų ir išraiškingų, ir praktiškų.
 
-Natural leather is the perfect material for this.
+Natūrali oda tam tinka tobulai.
 
-In this workshop, you will learn techniques and how to bring it to life, by shaping a piece of natural leather into your own, unique, sculptural free-flowing tote bag silhouette.
+Šiose dirbtuvėse išmoksi technikų ir kaip oda atgyja — formuosime natūralios odos gabalą į savitą, skulptūrišką, laisvai tekančią tote krepšio siluetą.
 
-The workshop begins with a short introduction to leather itself: its textures, qualities, and possibilities. You’ll get the chance to touch, cut, and experiment with the material directly with step-by-step help and guidance.
+Dirbtuvės prasideda trumpa pažintimi su oda: jos tekstūromis, savybėmis ir galimybėmis. Turėsi galimybę liesti, pjauti ir eksperimentuoti su medžiaga, o aš viso proceso metu palydėsiu žingsnis po žingsnio.
 
-I'll demonstrate the process of sewing with a professional leather sewing machine, leather stitching, and how the construction works.
+Parodysiu siuvimą profesionalia odos siuvimo mašina, odos siūles ir kaip veikia konstrukcija.
 
-This workshop is more than just crafting. It’s about slowing down, working with your own hands, exploration, and a great time in a studio setting nearby the Neris river - my studio space where nature and creativity meet.
+Šios dirbtuvės — daugiau nei amatas. Tai sulėtėjimas, darbas savo rankomis, tyrinėjimas ir geras laikas studijoje prie Neries — erdvėje, kur susitinka gamta ir kūryba.
 
-You will leave with curiosity and anticipation! I will finish your created base with straps and all the final details, then send the complete tote bag back to you in a few weeks - once your creation settles and is ready to be finished.
+Išeisi su smalsumu ir laukimu! Tavo sukurtą pagrindą užbaigsiu dirželiais ir visomis galutinėmis detalėmis, o visą tote krepšį tau atsiųsiu po kelių savaičių — kai kūrinys susigulės ir bus paruoštas užbaigti.
 
-**What's included**<br>
+**Kas įskaičiuota**
 
-- Learning techniques of wet leather moulding.
-- Intro guide to exploration of cuts, feel, and leathers themselves.
-- Demonstration of how the leather sewing process works.
-- Hands-on shaping your own unique tote bag from black leather.
-- Snacks and hot drinks
-- Finished bag by me delivered to you once your created base is ready
+- šlapios odos formavimo technikos
+- pažintis su pjūviais, pojūčiu ir pačia oda
+- odos siuvimo proceso demonstracija
+- savo unikalaus juodos odos tote krepšio formavimas
+- užkandžiai ir karšti gėrimai
+- mano užbaigtas krepšys, pristatytas tau, kai pagrindas bus paruoštas
