@@ -12,6 +12,7 @@ cover: 01.jpg
 price: 150
 width: 819
 height: 1024
+refundable: false
 pictures:
   - name: 02.jpg
     width: 819

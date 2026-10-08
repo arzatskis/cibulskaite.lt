@@ -5,9 +5,11 @@
     <a href="{{ page.checkout }}" data-cta>
       <strong>{{ page.cta | default: "Book your slot here →" }}</strong>
     </a>
+    {% if page.refundable %}
     <p>
       <small>Full or partial refund, change of date are available if notified in at least 2 weeks before planned workshop day.</small>
     </p>
+    {% endif %}
   </p>
   {% else %}
   <p>
@@ -21,7 +23,7 @@
       All products are made to order. It can take up to 2 weeks before it's made and shipped
     </small>
   </p>
-  {% endif %}
+  {% endif %} 
 </footer>
 {% endif %}
 
