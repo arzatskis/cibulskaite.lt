@@ -51,5 +51,5 @@ Pasirinksi odą: matinę, blizgią arba su raštu. Iš dirbtuvių išeisi su pa�
 - naudotis rankinio siuvimo įrankiais
 - pjauti ir paruošti odą siuvimui
 - siūti odą rankomis
-- dėti furnitūra į idinius gaminius
+- dėti furnitūra į odinius gaminius
 - įspausti logotipus odoje karštu presu
