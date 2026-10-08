@@ -1,9 +1,9 @@
-{% if page.price %}
+{% if page.checkout or page.price %}
 <footer>
   {% if page.checkout %}
   <p>
     <a href="{{ page.checkout }}" data-cta>
-      <strong>Book your slot here →</strong>
+      <strong>{{ page.cta | default: "Book your slot here →" }}</strong>
     </a>
     <p>
       <small>Full or partial refund, change of date are available if notified in at least 2 weeks before planned workshop day.</small>
